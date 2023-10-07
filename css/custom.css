@@ -1,0 +1,116 @@
+body {
+    font-family: "Montserrat" !important;
+}
+
+li {
+    font-size: 16px;
+}
+
+.btn-xl {
+    padding: 0.5rem 2rem !important;
+    font-size: 1.25rem !important;
+}
+
+.form-control {
+    font-size: 1.3rem !important;
+}
+
+.bg-beige {
+    background-color: #DDC3A5;
+}
+
+.bg-dark-brown {
+    background-color: #201E20;
+}
+
+.bg-collapse {
+    background-color: #201E20;
+    opacity: 50%;
+}
+
+.bg-tan{
+    background-color: #E0A96D;
+}
+
+.bg-darker-brown{
+    background-color: #0f0e0f;
+}
+
+h4 {
+    font-size: 20px !important;
+}
+
+.form-floating label {
+    font-size: 20px;   
+}
+
+/* Modal Image Transition */
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container {
+    transition: transform 0.3s ease;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-item:hover .image-container {
+    transform: scale(1.06);
+}
+
+.inline-elements {
+    display: inline;
+}
+
+/* Steady Transition */
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1.5s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+/* Left Transition */
+
+.hidden2 {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-15%);
+    transition: all 1.5s;
+}
+
+.show2 {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+}
+
+.hidden3 {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(15%);
+    transition: all 1.5s;
+}
+
+.show3 {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion){
+    .hidden .hidden2 {
+        transition: none;
+    }
+}

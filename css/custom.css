@@ -44,6 +44,10 @@ h4 {
     font-size: 20px;   
 }
 
+.masthead .masthead-avatar {
+    width: 17rem !important;
+}
+
 /* Modal Image Transition */
 
 .portfolio-item {
